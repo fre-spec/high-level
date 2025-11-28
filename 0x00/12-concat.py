@@ -1,5 +1,5 @@
 #!/usr/bin/python
-"""a module that concatenates strings togther as on """
+"""a module that concatenates strings togther as one """
 # store first and last name in variables
 firstname = "john"
 lastname = "peterson"

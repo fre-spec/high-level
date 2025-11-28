@@ -8,6 +8,11 @@ is_married = True
 
 PI = 3.143
 
+"""
+a variable is a computer container used to store can keep data for 
+executable program file
+"""
+
 
 
 

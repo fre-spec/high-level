@@ -5,5 +5,12 @@ a module that uses standard input to get information from the user
 
 
 
-fullname= input("Enter your fullname:")
+fullname = input("Enter your fullname:")
 print("welcome to python programming " + fullname)
+
+
+
+"""
+this keeeps the program interactive and engaging 
+and this occurs when your computer makes a requirement from you
+"""
