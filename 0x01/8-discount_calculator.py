@@ -4,8 +4,9 @@
 def apply_discount(price, discount_percent):
     discount_amount = price * (discount_percent / 100)
     if discount_percent > 50:
+    
         print("high discount applied!")
-
+    return discount_amount 
 if __name__ == "__main__":
     price = float(input("Enter original price: "))
     discount = float(input("Enter discount percentage: "))

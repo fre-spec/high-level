@@ -8,13 +8,14 @@ def convert_temperature(temp, scale):
         return (temp * 9/5) * 32
     else:
         return None
-    if __name__=="__main__":
-        temp = float(input("Enter temperature value: "))
-        scale = input("Convert to celsuis (C) or fahrenheit (F)? ")
+    
+if __name__=="__main__":
+    temp = float(input("Enter temperature value: "))
+    scale = input("Convert to celsuis (C) or fahrenheit (F)? ")
 
-        result = convert_temperature(temp, scale)
+    result = convert_temperature(temp, scale)
 
-        if result is None:
+    if result is None:
             print("invalid scale")
-        else:
+    else:
             print("Converted tempeature:", result)
