@@ -9,7 +9,7 @@ country_of_origin = "Nigeria"
 
 """ some of the rules includes
 1.use meaningful variable for readabilty
-2.use you cannot use reserved characters like, "print"
+2.you cannot use reserved characters like, "print"
 3.you cannot use special characters
 4.varibles can't be started with numbers 
 """
